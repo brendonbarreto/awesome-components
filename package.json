@@ -4,14 +4,14 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "clean-dist": "rm -rf ./dist",
-    "build": "yarn run clean-dist && NODE_ENV=production `yarn bin`/babel ./src --out-dir ./dist",
+    "build": "npx babel src --out-dir dist",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "retest": "yarn test -- -u"
   },
   "keywords": [],
-  "author": "",
+  "author": "Brendon Barreto <brendondominic@gmail.com> (https://github.com/brendonbarreto)",
   "license": "ISC",
   "peerDependencies": {
     "react": "^15.x",
