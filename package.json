@@ -19,6 +19,8 @@
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.3.15",
+    "@storybook/addon-info": "^3.3.15",
+    "@storybook/addon-knobs": "^3.3.15",
     "@storybook/addon-links": "^3.3.15",
     "@storybook/addon-storyshots": "^3.3.15",
     "@storybook/addons": "^3.3.15",
@@ -34,5 +36,7 @@
     "react-test-renderer": "^16.2.0",
     "styled-jsx": "^2.2.6"
   },
-  "dependencies": {}
+  "dependencies": {
+    "npm": "^5.7.1"
+  }
 }
