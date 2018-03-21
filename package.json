@@ -31,12 +31,17 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-1": "^6.24.1",
     "jest": "^22.4.2",
+    "jest-raw-loader": "^1.0.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-test-renderer": "^16.2.0",
+    "storybook-readme": "^3.3.0",
     "styled-jsx": "^2.2.6"
   },
-  "dependencies": {
-    "npm": "^5.7.1"
+  "jest": {
+    "transform": {
+      "\\.graphql$": "jest-raw-loader",
+      "\\.md$": "jest-raw-loader"
+    }
   }
 }
