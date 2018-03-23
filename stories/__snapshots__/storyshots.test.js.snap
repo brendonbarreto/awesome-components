@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Button Button 1`] = `
+<div
+  style={
+    Object {
+      "padding": "10px",
+    }
+  }
+>
+  <div
+    className="markdown-body"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<h1 id=\\"button\\">Button</h1>
+<p>Normal application button.</p>
+<pre><code class=\\"lang-js\\">import Button from &#39;components/Button&#39;;
+</code></pre>
+",
+      }
+    }
+  />
+  <div
+    style={
+      Object {
+        "boxShadow": "0 0 40px rgba(0, 0, 0, 0.1)",
+        "margin": "25px 0",
+        "padding": "25px",
+        "textAlign": "center",
+      }
+    }
+  >
+    <button
+      onClick={[Function]}
+      style={
+        Object {
+          "background": "white",
+          "border": "2px solid black",
+          "borderRadius": "3px",
+          "color": "black",
+          "fontSize": "15px",
+          "margin": "1px",
+          "padding": "5px",
+        }
+      }
+    >
+      Hello Im Button
+    </button>
+  </div>
+  <div
+    className="markdown-body"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "
+<h3 id=\\"flags-usage-rules\\">Flags usage rules</h3>
+<p>Use <strong>alert</strong> and <strong>success</strong> flags only in these cases:</p>
+<p><strong>alert</strong> - when <code>onClick</code> action removes something</p>
+<pre><code class=\\"lang-js\\">&lt;Button alert={true} label=&quot;Remove user&quot; /&gt;
+</code></pre>
+<p><strong>success</strong> - when <code>onClick</code> action adds something</p>
+<pre><code class=\\"lang-js\\">&lt;Button success={true} label=&quot;Add user&quot; /&gt;
+</code></pre>
+",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Storyshots Button Button 2 1`] = `
+<div
+  style={
+    Object {
+      "padding": "10px",
+    }
+  }
+>
+  <div
+    className="markdown-body"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<h1 id=\\"button-2\\">Button 2</h1>
+<p>Normal application button.</p>
+<pre><code class=\\"lang-js\\">import Button from &#39;components/Button&#39;;
+</code></pre>
+",
+      }
+    }
+  />
+  <div
+    style={
+      Object {
+        "boxShadow": "0 0 40px rgba(0, 0, 0, 0.1)",
+        "margin": "25px 0",
+        "padding": "25px",
+        "textAlign": "center",
+      }
+    }
+  >
+    <button
+      onClick={[Function]}
+      style={
+        Object {
+          "background": "white",
+          "border": "2px solid black",
+          "borderRadius": "3px",
+          "color": "black",
+          "fontSize": "15px",
+          "margin": "1px",
+          "padding": "5px",
+        }
+      }
+    >
+      Hello Im Button
+    </button>
+  </div>
+  <div
+    className="markdown-body"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "
+<h3 id=\\"flags-usage-rules\\">Flags usage rules</h3>
+<p>Use <strong>alert</strong> and <strong>success</strong> flags only in these cases:</p>
+<p><strong>alert</strong> - when <code>onClick</code> action removes something</p>
+<pre><code class=\\"lang-js\\">&lt;Button alert={true} label=&quot;Remove user&quot; /&gt;
+</code></pre>
+<p><strong>success</strong> - when <code>onClick</code> action adds something</p>
+<pre><code class=\\"lang-js\\">&lt;Button success={true} label=&quot;Add user&quot; /&gt;
+</code></pre>
+",
+      }
+    }
+  />
+</div>
+`;

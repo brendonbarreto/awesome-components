@@ -1,10 +1,18 @@
-import { configure } from '@storybook/react';
-import '@storybook/addon-knobs/register'
+import { configure, setAddon } from '@storybook/react'
+import { setOptions } from '@storybook/addon-options'
 
-// automatically import all files ending in *.stories.js
-const req = require.context('../stories', true, /.stories.js$/);
+setOptions({
+  name: 'Meus Pedidos',
+  url: 'https://github.com/tuchk4/storybook-readme',
+  goFullScreen: false,
+  showLeftPanel: true,
+  showDownPanel: true,
+  showSearchBox: false,
+  downPanelInRight: true,
+});
+
 function loadStories() {
-  req.keys().forEach((filename) => req(filename));
+  require('../stories');
 }
 
 configure(loadStories, module);
